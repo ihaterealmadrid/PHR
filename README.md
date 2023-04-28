@@ -70,13 +70,13 @@ Descripcion: Indicador LED para PCB a 90º Dialight verde y rojo, λ 563 / 650 n
 
 ## **SENSOR DE Co2**
 
-IMAGEN
+![image](https://user-images.githubusercontent.com/51059877/235197732-a936c133-d8c2-4310-ab06-a976cd63f7d6.png)
 
-https://store.prometec.net/producto/mq-135-sensor-calidad-de-aire/
+https://www.digikey.es/es/products/detail/sciosense/IAQ-CORE-P/5117222
 
 Codigo RS: 
 
-Descripcion: 
+Descripcion: MOD IAQ I2C PULSED MODE
 
 
 
