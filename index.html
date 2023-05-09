@@ -14,14 +14,34 @@
         margin-top: 50px;
     }
   </style>
+  <script>
+    function camb_img(color) {
+        if (color === 'verde'){
+            document.getElementById('bombilla').src = 'greeen.png';
+        } else if (color === 'rojo'){
+            document.getElementById('bombilla').src = 'neonred.png';
+        }
+    })
+
+  </script>
 
  </head>
 
  <body>
+
     <h1>GRUPO 5</h1>
+    <div class="seccion_botones">
+        <button onclick="camb_img('verde')">Boton poner en verde</button>
+        <button onclick="camb_img('rojo')">Boton poner en rojo</button>
+        <img id="bombilla" src="images/greeen.png" alt="ImagenVerde">
 
 
-  <button>
+
+    </div>
+
+
+
+  
  </body>
 
 </html>
