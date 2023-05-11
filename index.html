@@ -18,11 +18,21 @@
         width: 10%;
         height: 10%;
         border-radius: 5px;
-        margin-left: 31%;
         margin-top : 15%;
         align-self: center;
         
     }
+ #bombilla2 {
+        width: 10%;
+        height: 10%;
+        border-radius: 5px;
+        margin-top : 15%;
+        align-self: center;
+        
+    }
+.fotos {
+	margin-left: 45%;
+}
     button {
         margin: 20px;
     }
@@ -33,10 +43,13 @@
     function camb_img(color) {
         if (color === 'verde'){
             document.getElementById('bombilla').src = 'images/greeen.png';
+            document.getElementById('bombilla2').src = 'images/transparent.png';
+             
         } else if (color === 'rojo'){
-            document.getElementById('bombilla').src = 'images/neonred.png';
-        }
+            document.getElementById('bombilla2').src = 'images/neonred.png';
+            document.getElementById('bombilla').src = 'images/transparent.png';
     }
+}
 
   </script>
 
@@ -48,9 +61,11 @@
     <div class="seccion_botones">
         <button onclick="camb_img('verde')">Boton poner en verde</button>
         <button onclick="camb_img('rojo')">Boton poner en rojo</button>
+  </div>
+    <div class="fotos">
         <img id="bombilla" src="images/greeen.png" alt="ImagenVerde">
-
-
+        <img id="bombilla2" src="images/neonred.png" alt="ImagenRoja">
+     
 
     </div>
 
