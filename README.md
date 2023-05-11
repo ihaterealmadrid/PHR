@@ -91,4 +91,4 @@ Codigo RS: 174-3263
 Descripcion: Seeed Studio Air Quality Sensor v1.3 - 101020078, para usar con Sistema Grove, comprobación de calidad de aire interior
 
 
-
+![image](https://media.istockphoto.com/id/464988959/es/foto/%C3%A1nade-real-con-trazado-de-recorte.jpg?s=612x612&w=0&k=20&c=PAIRHbQK8O5urZ33f94YIMegMvOHEPH0lhwgup57nCA=)
